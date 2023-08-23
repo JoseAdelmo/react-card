@@ -1,0 +1,28 @@
+.container {
+    background-image: linear-gradient(blue, black);
+    display: flex;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 3.5rem;
+    margin-top: 6rem;
+    margin-left: 12rem;
+    height: 29rem;
+    width: 60rem;
+}
+
+h2, p{
+    color: white;
+    margin-bottom: 3rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    border-color: blue;
+}
+
+button:hover {
+    border-color: purple;
+    transition: 0.2s;
+}
